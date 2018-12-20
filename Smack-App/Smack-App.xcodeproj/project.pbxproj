@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4536812D21CC3652005C0077 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536812C21CC3652005C0077 /* GradientView.swift */; };
 		4548374E21CBF9A400F23214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548374D21CBF9A400F23214 /* AppDelegate.swift */; };
 		4548375321CBF9A400F23214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4548375121CBF9A400F23214 /* Main.storyboard */; };
 		4548375621CBF9A400F23214 /* Smack_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4548375421CBF9A400F23214 /* Smack_App.xcdatamodeld */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		2320E5DEF5F3E866E2A0DE26 /* Pods-Smack-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack-App/Pods-Smack-App.release.xcconfig"; sourceTree = "<group>"; };
 		42B19EB2B612457B23CB3908 /* Pods_Smack_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4536812C21CC3652005C0077 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		4548374A21CBF9A400F23214 /* Smack-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smack-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4548374D21CBF9A400F23214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4548375221CBF9A400F23214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		45F357C221CC013900A407E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4536812C21CC3652005C0077 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				45F357C421CC015C00A407E6 /* ChatVC.swift in Sources */,
 				4548375621CBF9A400F23214 /* Smack_App.xcdatamodeld in Sources */,
+				4536812D21CC3652005C0077 /* GradientView.swift in Sources */,
 				4548374E21CBF9A400F23214 /* AppDelegate.swift in Sources */,
 				45F357BF21CBFE6000A407E6 /* SWRevealViewController.m in Sources */,
 				45F357C621CC016E00A407E6 /* ChannelVC.swift in Sources */,
