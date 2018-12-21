@@ -13,6 +13,8 @@
 		4548375621CBF9A400F23214 /* Smack_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4548375421CBF9A400F23214 /* Smack_App.xcdatamodeld */; };
 		4548375821CBF9A400F23214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4548375721CBF9A400F23214 /* Assets.xcassets */; };
 		4548375B21CBF9A400F23214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4548375921CBF9A400F23214 /* LaunchScreen.storyboard */; };
+		4574688421CCE1D500351A35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574688321CCE1D500351A35 /* Constants.swift */; };
+		4574688621CCE5BE00351A35 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574688521CCE5BE00351A35 /* LoginVC.swift */; };
 		45F357BF21CBFE6000A407E6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F357BE21CBFE6000A407E6 /* SWRevealViewController.m */; };
 		45F357C421CC015C00A407E6 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F357C321CC015C00A407E6 /* ChatVC.swift */; };
 		45F357C621CC016E00A407E6 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F357C521CC016E00A407E6 /* ChannelVC.swift */; };
@@ -30,6 +32,8 @@
 		4548375721CBF9A400F23214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4548375A21CBF9A400F23214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4548375C21CBF9A400F23214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4574688321CCE1D500351A35 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4574688521CCE5BE00351A35 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		45F357BC21CBFE5F00A407E6 /* Smack-App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-App-Bridging-Header.h"; sourceTree = "<group>"; };
 		45F357BD21CBFE6000A407E6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		45F357BE21CBFE6000A407E6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		4548374C21CBF9A400F23214 /* Smack-App */ = {
 			isa = PBXGroup;
 			children = (
+				4574688221CCE1C500351A35 /* Utilities */,
 				45F357C221CC013900A407E6 /* View */,
 				45F357C121CC013400A407E6 /* Controller */,
 				45F357C021CC013000A407E6 /* Model */,
@@ -91,6 +96,14 @@
 				4548375421CBF9A400F23214 /* Smack_App.xcdatamodeld */,
 			);
 			path = "Smack-App";
+			sourceTree = "<group>";
+		};
+		4574688221CCE1C500351A35 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4574688321CCE1D500351A35 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		45F357BB21CBFE4400A407E6 /* Supporting Files */ = {
@@ -115,6 +128,7 @@
 			children = (
 				45F357C321CC015C00A407E6 /* ChatVC.swift */,
 				45F357C521CC016E00A407E6 /* ChannelVC.swift */,
+				4574688521CCE5BE00351A35 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,8 +271,10 @@
 			files = (
 				45F357C421CC015C00A407E6 /* ChatVC.swift in Sources */,
 				4548375621CBF9A400F23214 /* Smack_App.xcdatamodeld in Sources */,
+				4574688621CCE5BE00351A35 /* LoginVC.swift in Sources */,
 				4536812D21CC3652005C0077 /* GradientView.swift in Sources */,
 				4548374E21CBF9A400F23214 /* AppDelegate.swift in Sources */,
+				4574688421CCE1D500351A35 /* Constants.swift in Sources */,
 				45F357BF21CBFE6000A407E6 /* SWRevealViewController.m in Sources */,
 				45F357C621CC016E00A407E6 /* ChannelVC.swift in Sources */,
 			);
