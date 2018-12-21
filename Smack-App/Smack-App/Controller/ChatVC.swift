@@ -10,7 +10,7 @@ import UIKit
 
 class ChatVC: UIViewController {
 
-    //OUTLETS
+    //PROPERTIES
     @IBOutlet var menueButton: UIButton!
     
     
@@ -23,6 +23,8 @@ class ChatVC: UIViewController {
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
     }
     
-
+    //CUSTOM FUNCS
+    
+    //ACTIONS
 
 }

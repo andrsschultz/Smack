@@ -12,15 +12,20 @@ import UIKit
 
 class LoginVC: UIViewController {
 
+    //OVERRIDE FUNCS
     override func viewDidLoad() {
         super.viewDidLoad()
 
 
     }
     
+    //ACTIONS
     @IBAction func closeButtonTapped(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
-
+    @IBAction func createAccountButtonTapped(_ sender: Any) {
+        performSegue(withIdentifier: TO_CREATEACCOUNT, sender: nil)
+    }
+    
 }
